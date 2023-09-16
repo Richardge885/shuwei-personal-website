@@ -1,0 +1,24 @@
+{
+  "name": "shuwei-personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/index.css --watch",
+    "cssCompile": "tailwindcss -i ./input.css -o ./css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardge885/shuwei-personal-website.git"
+  },
+  "keywords": [],
+  "author": "Richard Ge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richardge885/shuwei-personal-website/issues"
+  },
+  "homepage": "https://github.com/Richardge885/shuwei-personal-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

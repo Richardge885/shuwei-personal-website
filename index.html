@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Shuwei Zuo</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <script src="js/index.js"></script>
-  </body>
+<html lang="en" class='text-[10px]'>
+
+<head>
+  <title>Shuwei Zuo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=MonteCarlo&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <!-- custome stylesheet -->
+  <link href="css/index.css" rel="stylesheet" />
+</head>
+
+<body class='font-sans'>
+  <nav class="flex justify-between items-center px-8 bg-red w-screen mt-3">
+    <div class='w-16 lg:w-0'></div>
+    <a href="index.html" class="font-cursive text-5xl text-center text-white py-1 lg:text-7xl lg:py-2">
+      <main>Shuwei Zuo</main>
+    </a>
+    <div id="menuBtn" class="hamburger lg:translate-y-0 z-10">
+      <!-- mt-[6px] -->
+      <div class="hamburger-top"></div>
+      <div class="hamburger-middle"></div>
+      <div class="hamburger-bottom"></div>
+    </div>
+  </nav>
+  <!-- menu -->
+  <div id="menu"
+    class="menu bg-red w-[75%] md:w-[35%] lg:w-[20%] text-white flex flex-col justify-center gap-[30px] items-center text-4xl lg:mt-[10px]">
+    <a href="index.html" class="hover:underline transition duration-500">Home</a>
+    <a href="biography.html" class="hover:underline transition duration-500">Biography</a>
+    <a href="gallery.html" class="hover:underline transition duration-500">Gallery</a>
+    <a href="contact.html" class="hover:underline transition duration-500">Get in Touch</a>
+    <!-- <a href="blog.html" class="hover:underline transition duration-500">Blog</a> -->
+  </div>
+
+  <!-- Main Content -->
+  <div class='flex flex-col md:flex-row justify-around items-center gap-10 lg:mt-14 lg:mr-auto lg:ml-auto'>
+
+    <div class='flex flex-col justify-center items-center gap-8'>
+      <div class='font-cursive text-8xl'>Shuwei Zuo</div>
+      <div class='text-4xl font-sans'>Classical Violinist</div>
+      <a href='biography.html' class='text-4xl font-sans bg-red text-white py-5 px-8'>Biography</a>
+    </div>
+
+    <img src="assets/Homepage.png" alt="unable to load image" class="h-full " />
+    <!-- lg:pr-[100px] translate-y-9-->
+  </div>
+
+  <!-- cards -->
+  <div class='flex flex-col lg:flex-row justify-center items-center mt-[10px] lg:mt-[80px] gap-14'>
+    <a href='https://www.southbanksinfonia.co.uk/events/'
+      class='w-[266px] h-[200px] bg-red rounded-[15px] flex flex-col items-center py-10 gap-6'>
+      <img src="assets/violin.svg" alt="" class='w-40'>
+      <div class='text-white text-4xl font-sans'>Upcomming Concerts</div>
+    </a>
+    <div class='w-[266px] h-[200px] bg-red rounded-[15px] flex flex-col items-center py-10 gap-6'>
+      <img src="assets/music-tone.svg" alt="" class='w-40'>
+      <div class='text-white text-4xl'>Gallery</div>
+    </div>
+    <div></div>
+    <!-- <div class='w-[266px] h-[370px] bg-red rounded-[15px] flex flex-col items-center py-10 gap-6'>
+        <img src="assets/diploma-scroll.svg" alt="" class='w-40'>
+        <div class='text-white text-4xl'>Education</div>
+      </div> -->
+  </div>
+
+  <div class="bg-red py-4 text-white text-center text-3xl mb-3 mt-7">copyright</div>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
